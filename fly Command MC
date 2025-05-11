@@ -1,0 +1,27 @@
+
+
+
+
+
+
+
+
+
+command /fly [<text]:
+    permisson: fly.use
+    premisson message: &cKeine Berechtigungen
+    trigger: 
+        if {fly.%player%} is not set:
+            set {fly.%player%} to true
+            set player's flight mode to true
+            send "&aDu Kannst Fliegen."
+            stop
+        else:
+            delete {fly.%player%}
+            set player's flight mode to false
+            send "&cDu kannst nicht mehr Fliegen." 
+            stop
+
+
+on quit:
+    delete {fly.%player%}
