@@ -1,0 +1,13 @@
+
+
+
+
+
+
+
+
+
+command /lobby:
+    trigger:
+        send "&7Du bist nun in der lobbs"
+        make console execute command "mv tp %player% Void"
