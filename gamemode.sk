@@ -1,12 +1,3 @@
-
-
-
-
-
-
-
-
-
 command /liam [<text>]:
      permisson: gm.use
      permisson message: &cKeine Berechtigungen.
