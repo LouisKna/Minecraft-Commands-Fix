@@ -4,7 +4,7 @@ command /liam [<text>]:
      trigger: 
          if arg 1 is "1" or "creative" or "c":
              set player's gamemode to creative
-             send "&7Du Wurdest in den Kreativmodus Gesetzt"
+             send "&7Du wurdest in den Kreativmodus gesetzt"
         if arg is "0" or "suvival" or "s":
              set player's gamemode to survival
-             send "&7Du wurdest in den Survivalmodus gesetzt"
+             send "&7Du wurdest in den Überlebensmodus gesetzt"
