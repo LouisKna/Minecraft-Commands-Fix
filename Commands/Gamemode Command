@@ -7,7 +7,7 @@
 
 
 
-command /liam [<text>]:
+command /gamemode [<text>]:
      permisson: gm.use
      permisson message: &cKeine Berechtigungen.
      trigger: 
